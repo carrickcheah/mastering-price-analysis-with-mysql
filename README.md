@@ -1,4 +1,4 @@
-# Predict Bitcoin Price
+# SQL mastery for handling big data
 
 ## Overview
 
