@@ -63,6 +63,9 @@ The dataset is quantitative, consisting of numerical values such as prices, volu
 ![Image 1](images/001.jpg)
 
 The dataset is quantitative in nature. It contains 365 rows of daily trading transaction. File size of 41 KB. This scope provides a comprehensive view of Bitcoin's trading activity across different time points. It good for detailed time-series forecasting and market trend analysis. It captures both short-term volatility and seasonal patterns.
+
+---
+
 &nbsp;
 &nbsp;
 
