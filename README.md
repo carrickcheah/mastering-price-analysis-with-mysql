@@ -60,7 +60,7 @@ The dataset is quantitative in nature. It good for detailed time-series forecast
 
 ![Image 3](images/003.png)
 Elaboration SQL:  
-The schema organizes data into columns like `Timestamp_MS`, `Open_price`, and `Close_price`, optimized for time-series analysis by making `Timestamp_MS` the primary key.
+The schema organizes data into columns like `Timestamp_MS`, `Open_price`, and `Close_price`, optimized for time-series analysis by making `Timestamp_MS` the primary key.  
 Explanation Results:  
 It detects trends, anomalies, and supports time-specific analysis for informed trading and decision-making strategies.
 
@@ -69,7 +69,7 @@ It detects trends, anomalies, and supports time-specific analysis for informed t
 
 ![Image 4](images/004.png)
 Elaboration SQL:  
-Retrieves records where Open_price > 73000 and Close_price < 90000.  Sorted with Timestamp_MS descending.
+Retrieves records where Open_price > 73000 and Close_price < 90000.  Sorted with Timestamp_MS descending.  
 Explain Results:  
 Identifies days with specific price conditions. It really help spot trading .
 
@@ -78,7 +78,7 @@ Identifies days with specific price conditions. It really help spot trading .
 
 ![Image 5](images/005.png)
 Elaboration:  
-Calculates the average Close_price over 5, 20, and 30 days from the most recent data.
+Calculates the average Close_price over 5, 20, and 30 days from the most recent data.  
 Results:  
 Provides short-term and long-term price trends. Assist in trend analysis for trading strategies.
 
@@ -87,7 +87,7 @@ Provides short-term and long-term price trends. Assist in trend analysis for tra
 
 ![Image 6](images/006.png)
 Elaboration SQL:  
-Summary statistics such as total entries, min/max/average prices, and total trading volume.
+Summary statistics such as total entries, min/max/average prices, and total trading volume.  
 Explain Results:  
 Helps analyse overall market performance and key price.
 
@@ -96,7 +96,7 @@ Helps analyse overall market performance and key price.
 
 ![Image 7](images/007.png)
 Elaboration SQL:  
-Retrieves the top 5 days with the highest price fluctuations by calculate the difference between High_price and Low_price.
+Retrieves the top 5 days with the highest price fluctuations by calculate the difference between High_price and Low_price.  
 Explain Results:  
 Find the most volatile trading days. To help assess market instability and potential opportunities.
 
@@ -105,7 +105,7 @@ Find the most volatile trading days. To help assess market instability and poten
 
 ![Image 8](images/008.png)
 Elaboration SQL:  
-To get 7-day moving average of Close_price using a window function.
+To get 7-day moving average of Close_price using a window function.  
 Explain Results:  
 Shows smoothed price trends, reduce daily volatility to help identify consistent patterns.
 
@@ -114,7 +114,7 @@ Shows smoothed price trends, reduce daily volatility to help identify consistent
 
 ![Image 9](images/009.png)
 Elaboration SQL:  
-Calculates daily percentage changes in closing price and compare each day with the previous day's close.
+Calculates daily percentage changes in closing price and compare each day with the previous day's close.  
 Explain Results:  
 Help in get significant market fluctuations for investment decisions.
 
@@ -123,7 +123,7 @@ Help in get significant market fluctuations for investment decisions.
 
 ![Image 10](images/010.png)
 Elaboration SQL:  
-Calculates the longest consecutive days with rising closing prices using window functions.
+Calculates the longest consecutive days with rising closing prices using window functions.  
 Explain Results:  
 Identifies the maximum streak of price increases (197 days). Discover trend analysis.
 
@@ -132,7 +132,7 @@ Identifies the maximum streak of price increases (197 days). Discover trend anal
 
 ![Image 11](images/011.png)
 Elaboration SQL:  
-Selects records where the closing price exceeds the 30-day moving average, sorted by date.
+Selects records where the closing price exceeds the 30-day moving average, sorted by date.  
 Explain Results:  
 Highlights dates when prices outperformed the 30-day trend. It supports analysis of upward price momentum.
 
@@ -141,7 +141,7 @@ Highlights dates when prices outperformed the 30-day trend. It supports analysis
 
 ![Image 12](images/012.png)
 Elaboration SQL:  
-Identifies days with trading volume spikes exceeding 1.5 times the 7-day moving average, show about percentage increase.
+Identifies days with trading volume spikes exceeding 1.5 times the 7-day moving average, show about percentage increase.  
 Explain Results:  
 Highlights significant volume surges. Purpose for spotting unusual market activity.
 
@@ -150,7 +150,7 @@ Highlights significant volume surges. Purpose for spotting unusual market activi
 
 ![Image 13](images/013.png)
 Elaboration SQL:  
-Calculates the highest daily profit opportunity based on the difference between high and low prices.
+Calculates the highest daily profit opportunity based on the difference between high and low prices.  
 Explain Results:  
 Identifies the day with the maximum trading profit potential. It would help strategic decision-making for traders.
 
