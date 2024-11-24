@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the effective utilization of SQL for managing and analyzing large-scale Bitcoin trading data. The dataset, comprising daily metrics and calculated indicators over a year, provides a foundation for mastering SQL skills essential for handling big data. Emphasis is placed on extracting meaningful insights, such as daily trading trends and volume analysis, while ensuring efficiency and accuracy in data retrieval. By automating repetitive tasks and correcting historical inconsistencies, SQL serves as a powerful tool for streamlining workflows. This approach underscores the critical role of SQL in empowering businesses to harness the potential of big data for operational excellence.
+This project demonstrates the effective utilization of SQL for managing and analyzing large-scale Bitcoin trading data. The dataset, comprising daily metrics and calculated indicators over a year, provides a foundation for mastering SQL skills essential for handling big data. Emphasis is placed on extracting meaningful insights, such as daily trading trends and volume analysis, while ensuring efficiency and accuracy in data retrieval. By automating repetitive tasks and correcting historical inconsistencies, SQL serves as a powerful tool for streamlining workflows.
 
 ### **Dataset Columns:**
 
